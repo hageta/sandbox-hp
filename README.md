@@ -95,3 +95,7 @@ webpack is used for building to bundle file.
 * [webpack + TypeScript + React](https://codeburst.io/webpack-typescript-react-part-1-dc154e250f23)
 * [単体テストをCircleCIで実行されるようにしてみた](https://qiita.com/TKR/items/9fb89f880f93cc6f3843)
 * [サーバー構築で最低限考えるべき仕様](https://qiita.com/u6k/items/5b43d73f18af1f8f213b)
+
+### Comments
+
+* [ts-loader vs awesome-typescript-loader](https://github.com/s-panferov/awesome-typescript-loader#differences-between-ts-loader)
