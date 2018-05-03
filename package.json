@@ -4,16 +4,34 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "antd": "^3.4.4",
     "awesome-typescript-loader": "^3.5.0",
-    "typescript": "^2.7.2",
-    "webpack": "^4.1.0"
+    "enzyme": "^3.3.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0"
   },
   "devDependencies": {
-    "webpack-cli": "^2.0.10"
+    "@types/enzyme": "^3.1.10",
+    "@types/enzyme-adapter-react-16": "^1.0.2",
+    "@types/jest": "^22.2.3",
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "css-loader": "^0.28.11",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.3",
+    "style-loader": "^0.21.0",
+    "ts-jest": "^22.4.4",
+    "tslint": "^5.9.1",
+    "tslint-config-airbnb": "^5.8.0",
+    "webpack-cli": "^2.1.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/webpack --colors --config ./webpack.config.js"
+    "build": "./node_modules/.bin/webpack --colors --config ./webpack.config.js",
+    "tslint": "./node_modules/.bin/tslint -c tslint.json 'src/**/*.tsx'",
+    "test": "./node_modules/.bin/jest --notify --coverage --config=jest.config.js"
   },
   "repository": {
     "type": "git",
